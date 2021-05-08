@@ -6,12 +6,23 @@ struct Array
   int length;
 };
 
-void Display(struct Array &arr)
+void Display(struct Array &arr, int index = -1)
 {
+  int x = 0;
   std::cout << "\nElements are" << std::endl;
-  for (auto &&i : arr.A)
+  for (int i : arr.A)
   {
-    std::cout << arr.A[i] << std::endl;
+    if (index == x)
+    {
+      std::cout << "->";
+    }
+
+    std::cout << i << std::endl;
+    if (x == arr.length - 1)
+    {
+      break;
+    }
+    x++;
   }
 }
 
@@ -36,6 +47,29 @@ void Insert(struct Array &arr, int index, int x)
   }
 }
 
+void Delete(struct Array &arr, int index)
+{
+  for (int i = index; i < arr.length - 1; i++)
+  {
+    arr.A[i] = arr.A[i + 1];
+  }
+}
+
+void LSearch(struct Array &arr, int element)
+{
+
+  for (int i = 0; i < arr.length; i++)
+  {
+    if (arr.A[i] == element)
+    {
+      std::cout << "Element " << arr.A[i] << " found at index " << i << std::endl;
+      Display(arr,i);
+      return;
+    }
+  }
+  std::cout << "Element not found or not in the array" << std::endl;
+}
+
 int main()
 {
   struct Array arr = {{1, 2, 3, 4, 5}, 10, 5};
@@ -53,6 +87,9 @@ int main()
   // }
   // arr.length = n;
   Append(&arr, 10);
+  Insert(arr, 1, 5);
+  Delete(arr, 0);
+  LSearch(arr, 10);
   Display(arr);
   return 0;
 }
