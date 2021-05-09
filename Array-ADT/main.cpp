@@ -6,6 +6,13 @@ struct Array
   int length;
 };
 
+void swap(int &x, int &y)
+{
+  int temp = x;
+  x = y;
+  y = temp;
+}
+
 void Display(struct Array &arr, int index = -1)
 {
   int x = 0;
@@ -63,7 +70,8 @@ void LSearch(struct Array &arr, int element)
     if (arr.A[i] == element)
     {
       std::cout << "Element " << arr.A[i] << " found at index " << i << std::endl;
-      Display(arr,i);
+      Display(arr, i);
+      swap(arr.A[0], arr.A[i]);
       return;
     }
   }
@@ -89,7 +97,7 @@ int main()
   Append(&arr, 10);
   Insert(arr, 1, 5);
   Delete(arr, 0);
-  LSearch(arr, 10);
+  LSearch(arr, 3);
   Display(arr);
   return 0;
 }
