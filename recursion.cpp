@@ -10,7 +10,7 @@ void fun(int n)
 
 int main()
 {
-  int x = 9;
+  int x = 10;
   fun(x);
   std::cout << "Hello, World!" << std::endl;
   return 0;
