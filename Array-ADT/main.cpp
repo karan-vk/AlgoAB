@@ -255,6 +255,36 @@ void insertSorted(struct Array &arr, int key)
   arr.A[i + 1] = key;
   arr.length++;
 }
+void rearange(struct Array &arr)
+{
+  int i, j;
+  i = 0;
+  j = arr.length - 1;
+  while (i > j)
+  {
+    while (arr.A[i] < 0)
+      i++;
+    while (arr.A[i] >= 0)
+      j--;
+    if (i < j)
+      swap(arr.A[i], arr.A[j]);
+  }
+}
+
+void seperate(struct Array &arr)
+{
+  int i, j;
+  i = 0;
+  j = arr.length - 1;
+  for (i, j; i < arr.length / 2; i++)
+  {
+    if (arr.A[i] > arr.A[j])
+    {
+      swap(arr.A[i], arr.A[j]);
+    }
+    j--;
+  }
+}
 bool isSorted(struct Array &arr)
 {
   int n = arr.length;
@@ -269,18 +299,48 @@ bool isSorted(struct Array &arr)
   return true;
 }
 
-int main()
+struct Array merge(struct Array a, struct Array b)
 {
-  struct Array arrc = {{1, 20, 3, 5, 6}, 10, 5};
-  // insertSorted(arrc, 4);
-  int x = 5;
-  if (isSorted(arrc))
+  int i, j, m, n;
+  i = 0;
+  j = 0;
+  m = a.length;
+  n = a.length;
+  struct Array c = {{}, 200, 0};
+  while (i < m && j < n)
   {
-    x = 1;
+    if (a.A[i] < b.A[j])
+    {
+      Append(&c, a.A[i++]);
+    }
+    else
+    {
+      Append(&c, b.A[j++]);
+    }
   }
 
-  std::cout << x << std::endl;
-  Display(arrc);
+  for (; i < m; i++)
+  {
+    Append(&c, a.A[i]);
+  }
+  for (; j < m; j++)
+  {
+    Append(&c, b.A[j]);
+  }
+
+  return c;
+}
+
+int main()
+{
+  struct Array arrc = {{1, 2, 3, 4, 59}, 10, 5};
+  struct Array arrc1 = {{6, 8, 80, 65, 80}, 10, 5};
+  // insertSorted(arrc, 4);
+  int x = 5;
+
+  swap(arrc.A[1], arrc.A[3]);
+  struct Array c = merge(arrc, arrc1);
+  simpleDisplay(c);
 
   return 0;
 }
