@@ -39,7 +39,6 @@ public:
   int min();
   int sum();
   float avg();
-
   void reverse();
   void reverseSwap();
   void shiftLeft();
