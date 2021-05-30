@@ -1,0 +1,905 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"en",
+				"endl"
+			],
+			[
+				"e",
+				"else if"
+			],
+			[
+				"si",
+				"sizeof"
+			],
+			[
+				"end",
+				"endl"
+			],
+			[
+				"siz",
+				"size_t"
+			],
+			[
+				"ma",
+				"max"
+			],
+			[
+				"for",
+				"for_each"
+			],
+			[
+				"in",
+				"int"
+			],
+			[
+				"al",
+				"algorithm"
+			],
+			[
+				"to",
+				"toup(x: String): String\t  Method"
+			],
+			[
+				"tra",
+				"trans(x: String, f: String => String): String\t  Method"
+			],
+			[
+				"Stri",
+				"String\t  Interface"
+			],
+			[
+				"fi",
+				"fib1(n: Long): Long\t  Method"
+			],
+			[
+				"f",
+				"for\t  Value"
+			],
+			[
+				"pri",
+				"println(): Unit\t  Method"
+			],
+			[
+				"nu",
+				"numberOne: Int\t  Value"
+			],
+			[
+				"count",
+				"countByValue()(implicit ord: Ordering[String] = {}): Map[String,Long]\t  Method"
+			],
+			[
+				"ra",
+				"ratings"
+			],
+			[
+				"cou",
+				"countByValue"
+			],
+			[
+				"st",
+				"static\t  Keyword"
+			],
+			[
+				"inc",
+				"include <header>\t  Snippet"
+			],
+			[
+				"func",
+				"func"
+			],
+			[
+				"pr",
+				"Println\t  func(a ...interface{}) (n int, err error)"
+			],
+			[
+				"pla",
+				"player1\t  Player"
+			],
+			[
+				"sh",
+				"shoot_puck(…)\t  fn shoot_puck(&mut self, seconds_remaining: u16)"
+			],
+			[
+				"go",
+				"goals_ytd\t  u8"
+			],
+			[
+				"sho",
+				"shoot_puck(…)\t  fn shoot_puck(self, seconds_remaining: u16)"
+			],
+			[
+				"H",
+				"HockeyPosition\t  Enum"
+			],
+			[
+				"ho",
+				"HockeyPlayer\t  Struct"
+			],
+			[
+				"pos",
+				"position\t  HockeyPosition"
+			],
+			[
+				"n",
+				"number\tabc"
+			],
+			[
+				"na",
+				"name\t  String"
+			],
+			[
+				"u",
+				"u8\t  Struct"
+			],
+			[
+				"im",
+				"impl\t  Keyword"
+			],
+			[
+				"dis",
+				"dist\tabc"
+			],
+			[
+				"str",
+				"struct-unit\tstruct …;"
+			],
+			[
+				"is",
+				"is_equilateral\tabc"
+			],
+			[
+				"tr",
+				"triangle\tabc"
+			],
+			[
+				"g",
+				"goals_ytd\t  goals_ytd: u8"
+			],
+			[
+				"pl",
+				"player\tabc"
+			],
+			[
+				"S",
+				"String\tabc"
+			],
+			[
+				"An",
+				"Analog(…)\t  (u8, u8, u8)"
+			],
+			[
+				"s",
+				"seconds\tabc"
+			],
+			[
+				"fn",
+				"fn\t  Keyword"
+			],
+			[
+				"un",
+				"unimplemented!(…)\t  #[macro_export]\nmacro_rules! unimplemented"
+			],
+			[
+				"cha",
+				"charCodeAt\t( pos: int ): int String"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"has",
+				"hasOwnProperty\t( property: string ): boolean Object"
+			],
+			[
+				"Ob",
+				"Object\t( value?: any ): Object Object"
+			],
+			[
+				"math",
+				"mathjax"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"Da",
+				"Date_now\t(): Date Date"
+			],
+			[
+				"tim",
+				"time"
+			],
+			[
+				"clog",
+				"console_log"
+			],
+			[
+				"conlo",
+				"console_log"
+			],
+			[
+				"ad",
+				"addUpto"
+			],
+			[
+				"tot",
+				"total"
+			],
+			[
+				"fun",
+				"function_with_name"
+			],
+			[
+				"log",
+				"console_log"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Array-ADT/pair of elements in sorted array.cpp",
+			"settings":
+			{
+				"buffer_size": 445,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"left_delete",
+					null,
+					"AQAAABMAAAAAAAAAEwAAAAAAAAATAAAACiNpbmNsdWRlIDxvc3RyZWFtPg",
+					"AQAAAAAAAAABAAAAJgAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Automatic"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Run (with args)..."
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Check"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Test (with args)..."
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Document"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Script"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"terminus",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"terminal",
+				"Terminal: Open"
+			],
+			[
+				"minus",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"ter",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"pcl",
+				"Package Control: List Packages"
+			],
+			[
+				"pc",
+				"Package Control: List Packages"
+			],
+			[
+				"syntax c++",
+				"Set Syntax: C++"
+			],
+			[
+				"gip",
+				"Git: Push"
+			],
+			[
+				"gic",
+				"Git: Commit"
+			],
+			[
+				"gico",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"ena",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"pci ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: e",
+				"Package Control: Enable Package"
+			],
+			[
+				"lsp e",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"pcd",
+				"Package Control: Disable Package"
+			],
+			[
+				"lsp metals",
+				"LSP-metals: Settings"
+			],
+			[
+				"form",
+				"LSP: Format Document"
+			],
+			[
+				"lsp",
+				"LSP-metals: New Scala File"
+			],
+			[
+				"pco",
+				"Package Control: Add Channel"
+			],
+			[
+				"LSP-metalsi",
+				"LSP-metals: Build Import"
+			],
+			[
+				"met",
+				"LSP-metals: Build Import"
+			],
+			[
+				"package control",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"set go",
+				"Set Syntax: Go"
+			],
+			[
+				"gui",
+				"Git: Gui"
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"lsp sett",
+				"Preferences: LSP Settings"
+			],
+			[
+				"terminu",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"git ",
+				"Git: Gui"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ls",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"rust",
+				"Rust: Run Benchmark At Cursor"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"toc",
+				"MarkdownTOC:Insert TOC"
+			],
+			[
+				"se",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set ",
+				"Set Syntax: Markdown"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"set markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"MarkdownLivePreview: Open Settings"
+			],
+			[
+				"markdown p",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"set ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"terminaus",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"Ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set s",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 567.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Karan/Desktop/APRIL2020/MayALgo",
+		"/C/Users/Karan/Desktop/APRIL2020/MayALgo/Array-ADT"
+	],
+	"file_history":
+	[
+		"/C/Users/Karan/Desktop/APRIL2020/MayALgo/Array-ADT/multiplemissing.cpp",
+		"/C/Users/Karan/Desktop/APRIL2020/MayALgo/Array-ADT/main.cpp",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/auto-save/auto_save.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/auto-save/README.md",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/SublimeAStyleFormatter.sublime-settings",
+		"/C/Users/Karan/Desktop/APRIL2020/MayALgo/Array-ADT/Sum of pair.cpp",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/LSP/LSP.sublime-settings",
+		"/C/Users/Karan/Desktop/Conderence App/Sub/store/src/App.svelte",
+		"/C/Users/Karan/Desktop/MARCH2021/SPARK/learn/SparkEnv/SparkLearning/src/main/scala/LearningScala3.worksheet.sc",
+		"/C/Users/Karan/Desktop/MARCH2021/SPARK/learn/SparkEnv/SparkLearning/src/main/scala/Main.scala",
+		"/C/Users/Karan/Desktop/MARCH2021/SPARK/learn/SparkEnv/SparkLearning/src/main/scala/learning1.worksheet.sc",
+		"/C/Users/Karan/Desktop/MARCH2021/SPARK/learn/SparkEnv/SparkLearning/build.sbt",
+		"/C/Users/Karan/Desktop/MARCH2021/SPARK/learn/SparkEnv/SparkLearning/src/main/scala/LearningScala2.worksheet.sc",
+		"/C/Users/Karan/Desktop/MARCH2021/SPARK/learn/SparkEnv/SparkLearning/src/main/scala/learn1.worksheet.sc",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/LSP.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/TabNine/TabNine.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/TabNine.sublime-settings",
+		"/C/Users/Karan/Desktop/Code/RUST/myproject/src/tmpsj2pyu",
+		"/C/Users/Karan/Desktop/TargeV2/Algo/Analysing arrays/Readme.md",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/Bold and Italic Markers.tmPreferences",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/C/Users/Karan/Desktop/TargeV2/Algo/BigO/BigONotation.md",
+		"/C/Users/Karan/Desktop/TargeV2/Algo/BigO/BigO#1.js",
+		"/C/Users/Karan/Desktop/TargeV2/Algo/BigO/BigO#2.js",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/JS.sublime-build",
+		"/C/Users/Karan/Desktop/TargeV2/Algo/BigO#1.js",
+		"/C/Users/Karan/Desktop/TargeV2/Algo/BigONotation.md",
+		"/C/Users/Karan/Desktop/TargeV2/Algo/BigO#2.js",
+		"/C/Users/Karan/Desktop/TargeV2/Algo/helloworld.js",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/Javascript Beautify/Default (Windows).sublime-keymap",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/JavaScript Completions/JavaScript-Completions.sublime-settings",
+		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\Karan\\Desktop\\APRIL2020\\MayALgo"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Array-ADT/pair of elements in sorted array.cpp",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".<>:\"/",
+									"selector": "punctuation.accessor | (meta.preprocessor.include string - punctuation.definition.string.end)",
+									"server": "clangd"
+								}
+							],
+							"lsp_active": true,
+							"lsp_hover_provider_count": 1,
+							"show_definitions": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoSublime/HUD":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 347.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 169.0
+	},
+	"output.exec":
+	{
+		"height": 194.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 146.0
+	},
+	"output.gofmt":
+	{
+		"height": 0.0
+	},
+	"output.language servers":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.references":
+	{
+		"height": 144.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mul",
+				"Array-ADT\\multiplemissing.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 186.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 580.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
