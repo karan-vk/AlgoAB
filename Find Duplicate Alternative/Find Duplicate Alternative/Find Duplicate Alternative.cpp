@@ -20,8 +20,8 @@ void find(int(&A)[n]) {
 	int maxi = A[0];
 	int amax = max(A);
 
-	int* Vec = new int[amax];
-	for (int i = 0; i < amax; i++)
+	int* Vec = new int[amax + 1];
+	for (int i = 0; i <= amax + 1; i++)
 	{
 		Vec[i] = 0;
 	}
@@ -30,7 +30,8 @@ void find(int(&A)[n]) {
 	{
 		Vec[A[i]]++;
 	}
-	for (int j = 0; j < amax; j++)
+	std::cout << Vec[amax] << std::endl;
+	for (int j = 0; j <= amax; j++)
 	{
 		if (Vec[j] > 1)
 		{
@@ -38,13 +39,12 @@ void find(int(&A)[n]) {
 		}
 
 	}
-	//delete[]Vec;
 
 }
 
 int main()
 {
-	int A[] = { 3,6,8,8,10,12,15,15,15,20 };
+	int A[] = { 3,6,8,8,10,12,15,15,15,20,20,20 };
 	find(A);
 	std::cout << "Hello World!\n";
 }
