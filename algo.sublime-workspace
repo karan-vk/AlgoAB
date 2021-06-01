@@ -244,22 +244,22 @@
 	"buffers":
 	[
 		{
-			"file": "Array-ADT/pair of elements in sorted array.cpp",
+			"file": "Array-ADT/c++Array.cpp",
 			"settings":
 			{
-				"buffer_size": 445,
+				"buffer_size": 613,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
 				[
-					3,
 					1,
-					"left_delete",
+					1,
+					"revert",
 					null,
-					"AQAAABMAAAAAAAAAEwAAAAAAAAATAAAACiNpbmNsdWRlIDxvc3RyZWFtPg",
-					"AQAAAAAAAAABAAAAJgAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAAAAAAAAAAAAAAAAABlAgAAI2luY2x1ZGUgPGlvc3RyZWFtPgoKdm9pZCBzaW5nbGVNaXNzaW5nKGludCBhW10sIGludCBzaXplKQp7CiAgZm9yIChpbnQgaSA9IDA7IGkgPCBzaXplOyBpKyspCiAgewogICAgaWYgKGFbaV0gIT0gYVtpICsgMV0gKyAxKQogICAgewogICAgICBzdGQ6OmNvdXQgPDwgKythW2ldOwogICAgICBicmVhazsKICAgIH0KICB9Cn0KCmludCB0b3RzdW0oaW50IHN0YXJ0LCBpbnQgc3RvcCkKewogIHJldHVybiAoKHN0b3AgKiAoc3RvcCArIDEpKSAvIDIpIC0gKCgoc3RhcnQgLSAxKSAqIChzdGFydCkpIC8gMik7Cn0KCmludCBtYWluKGludCBhcmdjLCBjaGFyIGNvbnN0ICphcmd2W10pCnsKICBpbnQgQVsyMF0gPSB7NiwgNywgOCwgOSwgMTAsIDExLCAxMywgMTQsIDE1LCAxNiwgMTd9OwogIGludCBzdW0gPSAwOwogIGZvciAoaW50IGkgPSAwOyBpIDwgMTE7IGkrKykKICB7CiAgICBzdW0gKz0gQVtpXTsKICB9CiAgaW50IHRvdGFzdW0gPSB0b3RzdW0oNiwgMTcpOwogIGlmICh0b3Rhc3VtID09IHN1bSkKICB7CiAgICBzdGQ6OmNvdXQgPDwgInRoZSBjb2RlIGlzIHNlcXVlbnRpYWwiOwogIH0KICBlbHNlCiAgewogICAgc3RkOjpjb3V0IDw8IHRvdGFzdW0gLSBzdW07CiAgfQp9CgAAAAAAAAAAZQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXgIAAAAAAABeAgAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		}
@@ -629,6 +629,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Karan/Desktop/APRIL2020/MayALgo/Array-ADT/pair of elements in sorted array.cpp",
 		"/C/Users/Karan/Desktop/APRIL2020/MayALgo/Array-ADT/multiplemissing.cpp",
 		"/C/Users/Karan/Desktop/APRIL2020/MayALgo/Array-ADT/main.cpp",
 		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/auto-save/auto_save.sublime-settings",
@@ -724,20 +725,20 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Array-ADT/pair of elements in sorted array.cpp",
+					"file": "Array-ADT/c++Array.cpp",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 445,
+						"buffer_size": 613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								364,
-								364
+								606,
+								606
 							]
 						],
 						"settings":
@@ -762,8 +763,8 @@
 							"lsp_hover_provider_count": 1,
 							"show_definitions": false,
 							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
