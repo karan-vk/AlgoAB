@@ -1,0 +1,61 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+		}
+	],
+	"open_at_startup" : true,
+
+	// Sets the entire scale of the UI
+	"ui_scale": 12,
+
+	// change at your own risk it may break the interface. Restart required to take effect
+	"font_face": "FiraCode NF",
+
+	// Which external terminal should be used when an adapter requests an external terminal
+	// "platform" (default) uses Terminal on MacOS, CMD (Not tested) on Windows, (Unimplemented) on Linux
+	// "terminus" Opens a new terminal view using terminus. The terminus package must be installed https://github.com/randy3k/Terminus
+	"external_terminal": "terminus",
+
+	// hide the status bar of the window when the debugger panel is open
+	"hide_status_bar": true,
+
+	// keep the debugger panel open unless another panel is being displayed
+	"keep_panel_open": true,
+
+	
+
+	"debugger_tasks": [
+		{
+			"name": "Compile",
+			"shell_cmd": "clang++ -std=c++14 -g main.cpp -o test",
+			"file_regex": "$cc",
+		},
+	],
+	"debugger_configurations": [
+		{
+			"name": "C++ (compile)",
+			"type": "lldb",
+			"request": "launch",
+			"program": "${project_path}/test",
+			"cwd": "${project_path}",
+			"pre_debug_task": "Compile", // sublime text 4 only
+			"terminal": "console",
+		},
+		{
+			"name": "C++ (external terminal)",
+			"type": "lldb",
+			"request": "launch",
+			"program": "${project_path}/test",
+			"cwd": "${project_path}",
+			"terminal": "external",
+		},
+		{
+			"name": "Attach (Pick Process)",
+			"type": "lldb",
+			"request": "attach",
+			"pid": "${command_pick_process}" // sublime text 4 only
+		},
+	],
+}
